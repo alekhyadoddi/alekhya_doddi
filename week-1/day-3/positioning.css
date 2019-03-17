@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+#fix1
+{
+width: 200px;
+height:200px; 
+background-color: aquamarine;
+position: fixed;
+top: 0;
+}
+#rel1{
+    width: 100%;
+height:200px; 
+background-color: aquamarine;
+position: relative;
+}
+#abs1{
+    width: 200px;
+    height:50px; 
+    background-color: beige;
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+}
