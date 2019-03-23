@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .tophead {
+
+            width: 540px;
+            padding: 10px;
+            height: 80px;
+            /* Should be removed. Only for demonstration */
+
+            background-color: indianred;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+            text-align: center;
+            border-style: none;
+
+        }
+
+        /* Create three equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 250px;
+            padding: 10px;
+            height: 300px;
+            /* Should be removed. Only for demonstration */
+            float: left;
+            background-color: white;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+
+            border-radius: 8px;
+            z-index: 2;
+        }
+
+        /* Clear floats after the columns */
+        .row{
+            
+            background-color: indianred;
+            border-style: none;
+            height: 400px;
+            width:90%;
+            z-index: -1;
+        }
+
+        .container {
+
+            width: 80%;
+            height: 100%;
+          
+            z-index: -2;
+            background-color: indianred;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding-top: 200px;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-bottom: 50px;
+            margin: auto;
+            align-content: center;
+
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+    <div class="container">
+
+        <div class="tophead">
+            <h1>Flowers</h1>
+        </div>
+        <div class="row">
+            <div class="column">
+                <h2>
+                    <center>flower1</center>
+                </h2>
+                <img src="https://images.freeimages.com/images/large-previews/42a/flower-1372194.jpg" alt="flower">
+            </div>
+            <div class="column">
+                <h2>flower2</h2>
+                <img src="https://images.freeimages.com/images/large-previews/eb7/flower-1399558.jpg" alt="flower">
+
+            </div>
+            <div class="column">
+                <h2>flower2</h2>
+                <img src="https://images.freeimages.com/images/large-previews/eb7/flower-1399558.jpg" alt="flower">
+
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <h2>flower2</h2>
+                <img src="https://images.freeimages.com/images/large-previews/cc3/flower-1312292.jpg" alt="flower">
+
+            </div>
+            <div class="column">
+                <h2>flower2</h2>
+                <img src="https://images.freeimages.com/images/large-previews/077/flowers-1404118.jpg" alt="flower">
+
+            </div>
+            <div class="column">
+                <h2>flower2</h2>
+                <img src="https://images.freeimages.com/images/large-previews/eb7/flower-1399558.jpg" alt="flower">
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
